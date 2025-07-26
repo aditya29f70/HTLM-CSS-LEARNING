@@ -1,0 +1,68 @@
+/* this is about absolute unit */
+/* div{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255,0,0);
+} */
+
+/* let see the eg for relative unit */
+/* where section is the parent of div and if we haven't done style for section (div's parent)*/
+/* so according to % relative units if you have any style of div it does not show */
+/* bz it is depanding on there parent width and height and we haven't given that 
+show 100% of parent width and height doesn't gives any sence so need to give that in parent*/
+
+/* 1.(for %) */
+/* section {
+  width: 500px;
+  height: 500px;
+  background-color: teal;
+} */
+/* after giving parent structor(width and height) with absolute units */
+/* now relative units work */
+
+/* div {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 0, 0);
+} */
+/* here child div cover 100%(relative unit) area of
+ of parent 'section' that why what ever background you gave for section it will not show*/
+
+/*2.(em unit) now go to learn about 'em' relative unit --> related to the front size of the 'element'*/
+
+/* html {
+  font-size: 2em;
+} */
+/* note by default our font size is 16px if we use 
+2em it will become duble */
+
+/*3.(rem unit) now go --> relative to font-size of the 'root element' */
+/* it does care about the parent element(en and rem both) */
+/*  so let p tag in your body with something written then it will 
+basically beacome duble when i try 2rem */
+
+/* p{
+  font-size: 2rem;
+} */
+/* note 1rem= 16px */
+
+/* 4. (vw unit) --> Relative to 1% of the width of the viewport */
+
+/* div {
+  background: teal;
+  it means , it will take only 20 % of viewport width 
+  width: 20vw;
+  height: 100px;
+} */
+
+/* lly for 5. (vh unit) --> Relative to 1% of the height of the viewport */
+/*  called viewport height */
+
+/* div{
+  background: teal;
+   it will take only 20% of viewport height
+  width: 100px;
+  height: 20vh;
+} */
+
+/* note always width first then height if you have write hight:20vh without width then width default value work as 100% */

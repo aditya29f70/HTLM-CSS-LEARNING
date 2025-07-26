@@ -1,0 +1,33 @@
+/* this is out External css and we will use mostly external css */
+/* for that we need to connect this css file to our html file then here what ever we styling it will style that html file */
+/* so that we have to use 'link' tag in our html file in the title */
+/* note all the style follow below rule */
+/* selector{property:value} */
+
+h1{
+  color:blue
+}
+
+h2{
+  /* color: rgb(223, 238, 18);  */
+  /* there is also a 'rgba' 'a' tends for alpha transparency */
+  color: rgba(94, 255, 0, 0.776);
+}
+
+h3{
+  color:#12db6c4e
+}
+
+h4{
+  color: hsl(300, 76%, 72%);
+}
+
+/* now if i want to change background color then use 'background-color:;' */
+
+h1{
+  background-color:rgb(127, 255, 212);
+  /* if also want to change color of that h1 itself from here so use */
+  color:rgb(240, 255, 255)
+}
+
+/* now question where to find great colors : adobe cooler*/

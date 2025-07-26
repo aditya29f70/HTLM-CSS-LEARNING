@@ -1,0 +1,14 @@
+# note html is called prarent tag
+<html>
+  <head>
+    Head section is not going to display anything to the user.
+    but it will help the  browser to know what our website is.
+    <title>
+      Intro website
+    </title>
+  </head>
+  <body>
+    The body is responsible to interact and display the content to 
+    the user
+  </body>
+</html>

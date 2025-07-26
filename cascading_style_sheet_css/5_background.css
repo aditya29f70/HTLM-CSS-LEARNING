@@ -1,0 +1,36 @@
+/* also i want to full screen so that : first select all the things on
+the screen by '*' and take margin 0 */
+
+/* for img you can use :unsplash.com */
+* {
+  margin: 0;
+}
+
+div {
+  background-color: rgb(132, 222, 222);
+  height: 100vh;
+  /* we are going to see 2nd property of the backgrount
+  that is :background-image for that you have to use 'url()' and you can take any type of url local as well as remote note : must be in the quotes "" */
+  background-image: url("https://plus.unsplash.com/premium_photo-1692726040752-9b1d808de571?q=80&w=1606&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* as you see that you img is repeating so for handling this we have another background prop--> background-repeat */
+  /* so now you have can say that at which dir you want to repeat */
+  background-repeat: no-repeat;
+
+  /* now if want that you img cover the background then we have also a background pro-> background-size */
+  background-size: cover;
+
+  /* but you can see our pic posstion is not good so that we have also background prop --> that background-position: 
+  like similar as you can use for left, right top bottom*/
+  background-position: left;
+
+  /* now i want a parallx effect on this img ,like i am scolling then my img also have to scoll*/
+  /* so for that we have also another property called: background-attachment */
+  background-attachment: fixed;
+
+  /* final background prop is background short hand prop : which we don't recommand you  */
+
+  /* background: url("https://plus.unsplash.com/premium_photo-1692132043431-ca4d4d6e3c3b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center/cover fixed; */
+
+  /* so background:url() value_of_background-repeat value_of_background-position value_of_background-size value_of_background-attachment */
+}

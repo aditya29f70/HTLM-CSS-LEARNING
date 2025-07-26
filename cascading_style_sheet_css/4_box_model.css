@@ -1,0 +1,70 @@
+/* 1. first we are going to learn about 'border' so for that we have to
+decide what should be border width  */
+/* after that need to border style  always use what should we value by ctrl+ space*/
+
+/* div {
+  note when we don't specifing that which side border i want to some property and write only 'border: width-size style color ' then this is for all the side
+  border-width: 5px;
+  border-style: solid;
+  border-color: aqua;
+  we can direct write these property in single border 
+  or this the short hand writing for border
+  border:10px dotted teal;
+
+  now if i want to bording left ,right , bottom
+  border-left: 4px solid crimson;
+  border-right: 4px solid aqua;
+  border-bottom: 4px solid black;
+  border-top: 4px solid brown;
+
+  when i use all the side at time 
+  border-top: 2px solid aqua;
+  border-bottom: 2px solid aquamarine;
+  border-left: 2px solid bisque;
+  border-right: 2px solid brown;
+} */
+
+/* now just learn about *****padding********** so what is it: padding is the inner space of that box which is inside the border line and ouside the inner most box(contend) */
+/* div {
+  border: 2px solid red;
+  if there is only written padding : 20px means 20px in all the direction 
+  padding: 20px;
+
+  now if we go by specifing with side i want to padding
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: right;
+  padding-right: 20px;
+
+  nice padding property like if you want to padding only top and bottom not left and right
+  padding: 10px 0;
+
+  and if you also want to padding left and right then
+  padding:20px 20px;
+} */
+
+/* now go to ********* margin********* *: it is outer space of the border /
+/* lly if i only write ******* margin:20px **** 20px for all the side  */
+
+* {
+  margin: 0;
+}
+
+div {
+  border: 2px solid red;
+  /* margin:200px; */
+  /* now if you want to margin in the specific area */
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  /* lly if want to margin top and bottom not to the right and left then use **margin:20px 0** */
+  /* margin: 40px 0; */
+
+  /* lly want for left and right but not for top and bottom  */
+  /* margin: 0 200px */
+
+  /* lly  both*/
+  /* margin:20px 50px; */
+}

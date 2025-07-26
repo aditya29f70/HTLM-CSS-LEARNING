@@ -1,0 +1,61 @@
+/*propertie 1. default font sytle is 'serif' */
+/*  more attribute you can see through ctrl+ space */
+/* sans-serif is simple style you can try it */
+
+/* lly 2. now next is about font-size */
+
+/* 3. text-transform you can try by seeing through there attri use by ctrl+ space*/
+/* like a capitalize is a text-transform which capitalize all the first char of the word in the sent and don't make any changes other letter of the word */
+/* lly uppercase lowercase */
+
+/* 7. vvvvvi *******  text-align : by default it's value is 'left' 
+it's value can be left, right and center */
+
+/* 8. text-decoration properties like 'line through'  */
+
+h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: line-through;
+}
+/* 8. note text-decoration 'none' value is very helpful for ancor tag if i have remove that there is not link present */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* now if you want to change the cursor sys so there is many tag */
+/* like for ancor tag there is default cursor is pointer */
+
+/*  4. '''line-height''''' is distance b\w two line */
+/* 9. font weight, like some values 200, 400,.... or bold or bolder, normal etc*/
+p {
+  line-height: 100px;
+  cursor: auto;
+  font-weight: bold;
+}
+
+/* 5. letter-spacing: this is for space b\w letter  */
+/* one is the default value */
+p {
+  letter-spacing: 5px;
+}
+
+/* 6. word-spacing */
+p {
+  word-spacing: 40px;
+}
+
+/* ******* now we are going to learn how to download a fonts from google
+ font and use in the project */
+
+/*  go to : fonts.google.com */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+h2 {
+  font-family: "Dancing Script", cursive;
+}

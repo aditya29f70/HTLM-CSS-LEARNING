@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+/* div { */
+/* now for gradient so in css we have two type of gradient 1. linear-gradient . 2. radial-gradient
+  we can modify them by using 'opacity' when you decrease the opacity you can see you pic */
+
+/* background-image: linear-gradient(blue, red),
+    url("https://plus.unsplash.com/premium_photo-1743169791428-2d1b1a8e518f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+
+/* also you can use as 'to left' and 'to right' , 'to top', 'to bottom' so sys patter shift as that and also take more than two color */
+/* background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 255, 0.404),
+      rgba(0, 128, 128, 0.45),
+      rgba(255, 0, 0, 0.345)
+    ),
+    url("https://plus.unsplash.com/premium_photo-1743169791428-2d1b1a8e518f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+/* but thing will be linear */
+/* height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+/* now go to learn 2. radial gradient */
+/* so this will work all the colors in the circularly arrnage mean frist color in the first (outer) circle then go so */
+
+/* div {
+  background-image: radial-gradient(
+      rgba(255, 166, 0, 0.263),
+      rgba(144, 53, 147, 0.131)
+    ),
+    url("https://plus.unsplash.com/premium_photo-1743169791428-2d1b1a8e518f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+} */

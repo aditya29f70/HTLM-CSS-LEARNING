@@ -1,0 +1,27 @@
+<!-- forms and inputs: huge topics to learn b'wz we have lots of input tags -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>radha</title>
+  </head>
+  <body>
+    <!-- 1. we are going to learn about the user form -->
+    <form>
+      <!-- if you want some brake b\w box and Name then use a special tag (self closing tag) use 'br'-->
+      <label>Name</label>
+      <!-- now we are going to use input form (self closing tag) for making 'input box'-->
+      <input type="text" /><br />
+
+      <!-- what is meaning of that 'for' attribute in label  basically it is used for connecting with backend data-->
+      <!-- what ever type like email,num etc you give inside for attri it show in our input form box through provide it in id -->
+      <label for="email">Email</label>
+      <!-- type works for what ever users input it must be lly like a email otherwise it will not select that input -->
+      <input type="email" id="email" /><br />
+
+      <label>Password</label>
+      <input type="password" /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
