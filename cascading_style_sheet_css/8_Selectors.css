@@ -1,0 +1,44 @@
+/* we have seen selector as tag directly in css for styling 
+but now we are going to see some real life Selectors */
+/* go : https://www.w3schools.com/css/css_selectors.asp */
+
+/* simple selectors: tag name, id, class */
+/* 1. class 
+like we can provide as many classes we want like if we put
+class= "one" in any tag means we are providing one class 
+but if wirte class ="one two" so we have given two class and we can give style  
+using either of them or using both it will show all the sytle easly
+Note: we always using period sign '.' for giving style for classes*/
+
+/* but we can't provide multiple id for one tag for styling */
+/* a id should be for one tag but you can provide one class for multiple tag styling */
+/* note: id must be only one name or id for one tag styling must be one */
+/* and for id we use '#id_name' hash in css  */
+
+/* now move to another selector which is ''every thing selector''
+take every thing by using ''*'' it which selector every thing head title body every thing  */
+
+.one {
+  color: aqua;
+}
+
+.two {
+  text-align: center;
+}
+
+#one {
+  font-size: 40px;
+}
+
+* {
+  border: 2px solid red;
+  background-color: antiquewhite;
+}
+
+/* if you have like section and want to select every thing inside that so just use this */
+
+section * {
+  border: 2px solid teal;
+}
+
+/* now going to learn 'element'' selector */

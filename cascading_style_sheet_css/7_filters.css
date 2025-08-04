@@ -35,5 +35,5 @@ div {
   background-attachment: fixed;
   /* filter: blur(2px); */
   /* filter: brightness(80%); */
-  filter: contrast(50%);
+  /* filter: contrast(50%); */
 }

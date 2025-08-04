@@ -1,0 +1,39 @@
+/* so in element we can select a tag name for styleing with there specfic class name */
+
+/* div.text {
+  color: teal;
+} */
+
+/* and in element selector you can use multple tag at a time for styling */
+/* note : div p --> select all <p> elements inside <div> element */
+
+/* div p {
+  color: crimson;
+} */
+
+/* now gonna see div > p means select all <p> elements where the immediate parent is a <div> element */
+
+/* div > p {
+  color: aquamarine;
+} */
+
+/* now gonna see ; div + p ; select the first <p> element
+that is placed immediately after <div> elements not inside that div */
+
+/* div + p {
+  color: aqua;
+} */
+
+/* now next: p ~ ul ; select every <ul> element that is preceded
+by a <p> element some as  p + ul */
+
+/* nw see , that attribute selector [attribute] , [target] ; select all element with a target attribute*/
+/* like you have anchor tag with attribute 'one' */
+
+a[href="one"] {
+  color: yellow;
+}
+
+img[alt="nature"] {
+  color: blueviolet;
+}

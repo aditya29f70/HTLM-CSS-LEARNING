@@ -1,0 +1,29 @@
+/* 1. :active; a:active --> select the active link */
+/* now learn about ':link' so a:link ; '''select all unvisited links''' */
+/* so first have to provide class so .link then psedu selector */
+
+.link:link {
+  color: brown;
+}
+/* note: if we have not visited this link then only it will show
+that class link sytle with that color otherwise not */
+
+/* now learn about ''visited'' --> :visited (that is psedo selector); a:visited; '''Select all visited links */
+.visited:visited {
+  color: yellow;
+}
+
+/* now next is ''.hover'' ;means when you close your cursor on that 
+tag link that whill there color*/
+.hover:hover {
+  color: skyblue;
+  font-size: 20px;
+}
+
+/* now the next one is ''active''; :acive; a:active ; Selects the active link */
+
+.active:active {
+  color: teal;
+}
+/* so when we click on this link it will change there color this it does bz 
+only iff when that link is active */
