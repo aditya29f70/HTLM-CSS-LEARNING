@@ -1,0 +1,53 @@
+.container {
+  background: rgb(33, 32, 32);
+  width: 90%;
+  height: 400px;
+}
+
+.d{
+  width: 100px;
+  height: 100px;
+}
+
+.one{
+  background: red;
+  position: relative;
+  left: 100px;
+}
+
+.two{
+  background: blue;
+  position: absolute;
+  left: 100px;
+}
+
+.three{
+  background: teal;
+  position: sticky;
+  top: 100px;
+
+}
+
+/* we have some postions
+1. static; default value. Element render in order
+, as they appear in the document flow */
+
+/* 2. absoult; the element is positioned relative to its first positioned(not static) ancestor element */
+/* The element is removed from the normal document flow (so it won’t push or pull other elements like a normal <div> would).
+
+Its position is calculated relative to the nearest positioned ancestor — meaning the closest parent element that has position set to anything other than static (relative, absolute, fixed, or sticky */
+
+
+/* 3. fixed ; the element is positioned relative to the browser window
+ */
+ /* it will fixed the that element with whatever position i had and now scroll the screen will also move with same position conatining
+  */
+
+ /* 4. relative ; the element is postioned relative to its ''normal position''', so
+ "left;20px" adds 20 pixels to the element's Left postion */
+ /* it will not leave there initial position */
+
+/* 5 sticky ; some as absoult but also some relative property that
+it will not leave there parent area */
+/* it will start sliping when you give how much gap
+it has to mantain with top */
